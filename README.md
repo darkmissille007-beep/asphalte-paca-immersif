@@ -19,6 +19,22 @@ puis ouvrir http://localhost:4385.
 - `app.js`, `index.html` et `styles.css` sont le moteur du modèle : ne pas
   les modifier (thème sombre et accent doré `#d9b876` déjà réglés).
 
+## Pages
+
+- `index.html` — l'accueil immersif (animé au défilement).
+- `adherer.html` — pourquoi adhérer, cotisation, étapes et formulaire de
+  candidature.
+- `boutique.html` — les 6 articles de la collection.
+- `pages.css` / `pages.js` — style et script des deux pages intérieures.
+
+Le site étant statique, la candidature et les commandes partent **par
+e-mail** : le formulaire ouvre la messagerie du visiteur avec un message
+pré-rempli vers contact.asphaltepaca@gmail.com. Pour une candidature en
+ligne avec paiement, il faut le site Astro (serveur + Stripe).
+
+Les articles de la boutique n'ont pas encore de photo : en attente de vraies
+photos des produits.
+
 ## Formats des photos
 
 | Emplacement | Fichiers | Format |

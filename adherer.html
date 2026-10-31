@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adhérer — Asphalte Paca</title>
+  <meta name="description" content="Rejoindre Asphalte Paca, association automobile du Var : pourquoi adhérer, comment ça se passe, et le formulaire de candidature.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="pages.css">
+</head>
+<body class="page">
+
+  <header class="dock">
+    <a class="dock-wordmark" href="index.html">Asphalte Paca</a>
+    <nav class="dock-nav" aria-label="Navigation principale">
+      <a class="dock-link mono" href="index.html">ACCUEIL</a>
+      <a class="dock-link mono" href="boutique.html">BOUTIQUE</a>
+    </nav>
+    <a class="dock-cta mono" href="adherer.html" aria-current="page">ADHÉRER</a>
+  </header>
+
+  <main>
+    <section class="p-hero wrap">
+      <p class="mono ash">ADHÉRER — ASSOCIATION LOI 1901</p>
+      <h1 class="p-title">Rejoindre<br>Asphalte Paca.</h1>
+      <p class="p-lead">Sportives, anciennes ou de prestige : l’association réunit les passionnés
+        d’automobile du Var autour de <strong>rassemblements dans les domaines et châteaux</strong>
+        et de <strong>balades sur les routes de Provence</strong>.</p>
+    </section>
+
+    <figure class="p-photo wrap">
+      <img src="images/adherer.jpg" alt="Les membres d’Asphalte Paca et leurs voitures au belvédère du Lac de Saint-Cassien" width="2000" height="833">
+      <figcaption class="mono ash">BALADE AU LAC DE SAINT-CASSIEN — 2025</figcaption>
+    </figure>
+
+    <section class="p-sec wrap">
+      <div class="p-sec-head">
+        <p class="mono ash">POURQUOI ADHÉRER</p>
+        <h2>Ce que l’adhésion vous apporte.</h2>
+      </div>
+      <div class="p-cols">
+        <div class="p-col">
+          <p class="p-num">01</p>
+          <h3>Les événements</h3>
+          <p>Un accès prioritaire aux rassemblements, balades et sorties organisés tout au long de l’année.</p>
+        </div>
+        <div class="p-col">
+          <p class="p-num">02</p>
+          <h3>Une communauté</h3>
+          <p>Des échanges entre passionnés d’automobile, dans une ambiance conviviale et respectueuse.</p>
+        </div>
+        <div class="p-col">
+          <p class="p-num">03</p>
+          <h3>La Provence autrement</h3>
+          <p>Des sorties pensées pour allier automobile, patrimoine et art de vivre provençal.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-sec wrap">
+      <div class="p-sec-head">
+        <p class="mono ash">LA COTISATION</p>
+        <h2>Une cotisation annuelle, sans surprise.</h2>
+      </div>
+      <div class="p-price">
+        <p class="p-price-fig">5<small>€</small></p>
+        <ul>
+          <li><strong>Votre carte de membre numérotée</strong>, à votre nom, avec son QR code.</li>
+          <li>L’accès aux événements de l’association pour la saison.</li>
+          <li><strong>Rien n’est demandé avant l’accord du bureau</strong> : vous ne payez qu’une fois votre candidature acceptée.</li>
+          <li>Reconduite chaque année à la même date, résiliable à tout moment.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="p-sec wrap">
+      <div class="p-sec-head">
+        <p class="mono ash">COMMENT ÇA SE PASSE</p>
+        <h2>Une adhésion, trois étapes.</h2>
+      </div>
+      <div class="p-cols">
+        <div class="p-col">
+          <p class="p-num">01</p>
+          <h3>Candidature</h3>
+          <p>Vous remplissez le formulaire ci-dessous et joignez une photo de votre véhicule.</p>
+        </div>
+        <div class="p-col">
+          <p class="p-num">02</p>
+          <h3>Validation</h3>
+          <p>Le bureau examine chaque candidature et vous répond par e-mail.</p>
+        </div>
+        <div class="p-col">
+          <p class="p-num">03</p>
+          <h3>Sur la route</h3>
+          <p>Une fois accepté, vous réglez la cotisation et recevez votre carte de membre.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-sec wrap" id="formulaire">
+      <div class="p-sec-head">
+        <p class="mono ash">DÉPOSER MA CANDIDATURE</p>
+        <div>
+          <h2>Présentez-vous.</h2>
+          <p style="margin-top:14px">Votre messagerie s’ouvre avec la candidature pré-remplie : il ne reste qu’à
+            y joindre la photo de votre véhicule et à l’envoyer.</p>
+        </div>
+      </div>
+
+      <form class="p-form" id="candidature" novalidate>
+        <div class="p-field">
+          <label class="mono" for="f-nom">NOM ET PRÉNOM</label>
+          <input id="f-nom" name="nom" autocomplete="name" required>
+        </div>
+        <div class="p-field">
+          <label class="mono" for="f-tel">TÉLÉPHONE</label>
+          <input id="f-tel" name="telephone" type="tel" autocomplete="tel" required>
+        </div>
+        <div class="p-field">
+          <label class="mono" for="f-mail">E-MAIL</label>
+          <input id="f-mail" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="p-field">
+          <label class="mono" for="f-ville">VILLE</label>
+          <input id="f-ville" name="ville" autocomplete="address-level2" required>
+        </div>
+        <div class="p-field">
+          <label class="mono" for="f-vehicule">MARQUE ET MODÈLE DU VÉHICULE</label>
+          <input id="f-vehicule" name="vehicule" placeholder="Ex. BMW M2" required>
+        </div>
+        <div class="p-field">
+          <label class="mono" for="f-annee">ANNÉE</label>
+          <input id="f-annee" name="annee" inputmode="numeric" placeholder="Ex. 2019">
+        </div>
+        <div class="p-field">
+          <label class="mono" for="f-plaque">IMMATRICULATION</label>
+          <input id="f-plaque" name="immatriculation" placeholder="AA-123-AA" required>
+        </div>
+        <div class="p-field full">
+          <label class="mono" for="f-msg">QUELQUES MOTS (FACULTATIF)</label>
+          <textarea id="f-msg" name="message" placeholder="Votre passion, votre voiture, comment vous nous avez connus…"></textarea>
+        </div>
+        <label class="p-check">
+          <input type="checkbox" name="accord" required>
+          <span>J’accepte que mes informations soient utilisées par Asphalte Paca pour étudier ma candidature et gérer mon adhésion.</span>
+        </label>
+        <div class="p-actions">
+          <button class="btn" type="submit">Préparer ma candidature →</button>
+          <p class="p-note" id="candidatureDone" hidden>Votre messagerie s’est ouverte ? N’oubliez pas d’y joindre la photo de votre véhicule avant d’envoyer.
+            Sinon, écrivez-nous directement à contact.asphaltepaca@gmail.com.</p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="p-footer wrap">
+    <p class="mono ash">UNE QUESTION AVANT DE NOUS REJOINDRE ?</p>
+    <a class="footer-mail" href="mailto:contact.asphaltepaca@gmail.com"><span class="footer-mail-text">contact.asphaltepaca@gmail.com</span></a>
+    <p class="mono ash">06 75 40 54 87 — ROQUEBRUNE-SUR-ARGENS, VAR</p>
+    <div class="footer-bottom">
+      <p class="mono ash">© 2026 — ASPHALTE PACA</p>
+      <p class="mono"><a href="index.html">ACCUEIL</a>&nbsp;&nbsp;&nbsp;<a href="boutique.html">BOUTIQUE</a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/asphaltepaca/" target="_blank" rel="noopener">INSTAGRAM ↗</a></p>
+      <p class="mono ash">AUTOMOBILE · VINS · ÉVASION</p>
+    </div>
+  </footer>
+
+  <script src="pages.js"></script>
+</body>
+</html>

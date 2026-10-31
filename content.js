@@ -21,7 +21,7 @@ window.SITE_CONTENT = {
     ]
   },
 
-  nav: { proof: 'SORTIES', universes: 'ADHÉSION', cta: 'CONTACT' },
+  nav: { proof: 'SORTIES', universes: 'BOUTIQUE', cta: 'ADHÉRER' },
 
   /* 1 · ACCROCHE */
   hook: {
